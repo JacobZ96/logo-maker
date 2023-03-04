@@ -1,0 +1,26 @@
+packages - what tools do I need?
+- install jest & inquirer
+
+Entry way to application index.js 
+Instanciate a new Questions class object her and run the main function. 
+
+Classes:
+1. Questions class - Ask Questions for the prompt
+    1a. We need to have a main method and everything will go in here
+    1b. collect user input with Inquire prompt 
+        1ba. Text for the logo
+        1bb. Text color
+        1bc. Shape type
+        1bd. Shape color 
+    1c. Which shape did the user select
+        1ca. Instanctiate a new shape object with the chosen shape
+        1cb. Using the object, set the color 
+    1d. Instantiate a nes SVG object with the text AND the shape selected    
+    1e. Write the SVG object to file called logo.svg
+
+2. Shape (color)
+    2a. Circle (render()) 
+    2b. Square (render())
+    2c. Triangle (render())
+
+3. SVG class (text, Shape, render())
