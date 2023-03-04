@@ -15,7 +15,7 @@ Classes:
     1c. Which shape did the user select
         1ca. Instanctiate a new shape object with the chosen shape
         1cb. Using the object, set the color 
-    1d. Instantiate a nes SVG object with the text AND the shape selected    
+    1d. Instantiate a new SVG object with the text AND the shape selected    
     1e. Write the SVG object to file called logo.svg
 
 2. Shape (color)
@@ -26,7 +26,4 @@ Classes:
 3. SVG class (text, Shape, render())
 
 
-4. Example of Triangle Shape code: 
-    const shape = new Triangle();
-    shape.setColor("blue");
-    expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');
+
