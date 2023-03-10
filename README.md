@@ -13,5 +13,7 @@ npm i
 Please do not Contribute to this project
 
 ## Test
+npm test
 
 ### Link 
+https://drive.google.com/file/d/1Qj07zp_KKQn6SJWHDn4rQzsgM3F0Oxgq/view
